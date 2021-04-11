@@ -352,6 +352,21 @@ p{font-size: 18px;}
 }
 
 @media screen and (max-width:800px){
+    #profile-pic{
+        width: 100px;
+        height: 200px;
+    }
+
+    .nav-wrapper{
+    grid-template-columns: 1fr;
+    
+    grid-template-areas: 
+    'nav-col'
+    'left-col'
+    'right-col';
+
+    }    
+
     .intro-wrapper{
     grid-template-columns: 1fr;
     
