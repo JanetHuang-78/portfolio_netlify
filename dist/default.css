@@ -358,16 +358,16 @@ p{font-size: 18px;}
     } */
 
     
-    /* .intro-wrapper{
+    .intro-wrapper{
     grid-template-columns: 1fr;
     
     /*for the screen automatically adjust the pic and captions*/
     /*grid-template-rows: 3em 40em;*/  
-    
+     
     grid-template-areas: 
     'nav-col'
     'left-col'
-    'right-col';} */
+    'right-col';} 
 
     .right-wrapper{
         justify-content: center;
