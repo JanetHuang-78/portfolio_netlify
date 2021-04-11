@@ -353,21 +353,12 @@ p{font-size: 18px;}
 
 @media screen and (max-width:800px){
     #profile-pic{
-        width: 100px;
-        height: 200px;
+        width: 60%;
+        height: 60%;
     }
 
-    .nav-wrapper{
-    grid-template-columns: 1fr;
     
-    grid-template-areas: 
-    'nav-col'
-    'left-col'
-    'right-col';
-
-    }    
-
-    .intro-wrapper{
+    /* .intro-wrapper{
     grid-template-columns: 1fr;
     
     /*for the screen automatically adjust the pic and captions*/
@@ -376,7 +367,7 @@ p{font-size: 18px;}
     grid-template-areas: 
     'nav-col'
     'left-col'
-    'right-col';}
+    'right-col';} */
 
     .right-wrapper{
         justify-content: center;
