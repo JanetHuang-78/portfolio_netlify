@@ -106,7 +106,6 @@ p, li, span, label, input, textarea{
 
 #profile-pic{
     display: block;
-
     width: 300px;
     height: 400px;
     object-fit: cover;
