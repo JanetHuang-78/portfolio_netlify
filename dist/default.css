@@ -356,7 +356,13 @@ p{font-size: 18px;}
         width: 60%;
         height: 60%;
     } */
+    #preview{
+        width: 100%;
+    }
 
+    #preview-skill{
+        width: 100%;
+    }
     
     .intro-wrapper{
     grid-template-columns: 1fr;
